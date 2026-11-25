@@ -10,6 +10,5 @@ pipeline{
     stage("deploy")
     {
       echo ' Deployment started....'
-  }
-  
+    }
 }
