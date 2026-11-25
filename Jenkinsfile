@@ -1,13 +1,13 @@
 pipeline{
   agent any
   stages{
-    stage("build"){
+    steps("build"){
       echo 'Started building the application'
     }
-    stage("test"){
+    steps("test"){
       echo 'Started testing the Script'
     }
-    stage("deploy")
+    steps("deploy")
     {
       echo ' Deployment started....'
     }
